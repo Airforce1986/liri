@@ -1,0 +1,34 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "command line node app to make api calls and retrieve information about music, movies and twitter",
+  "main": "liri.js",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node liri do-what-it-says"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airforce1986"
+  },
+  "keywords": [
+    "CLI",
+    "node.js",
+    "api",
+    "spotify",
+    "twitter",
+    "omdb"
+  ],
+  "author": "Daniel McCracken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Airforce1986"
+  },
+  "homepage": "https://github.com/Airforce1986"
+}
